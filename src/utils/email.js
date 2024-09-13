@@ -12,8 +12,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-// jajm cwyd tijh ekxk
-
 const sendEmail = async (to, subject, text) => {
   const mailOptions = {
     from: to,
